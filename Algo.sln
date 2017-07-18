@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Median", "Matrix\Median\Median.vcxproj", "{5CF9D57F-A8D6-47B5-B434-B2528DFC05B7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixMedian", "Matrix\Median\MatrixMedian.vcxproj", "{5CF9D57F-A8D6-47B5-B434-B2528DFC05B7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InterchangeDiagonals", "Matrix\InterchangeDiagonals\InterchangeDiagonals.vcxproj", "{DE05AB7E-AD46-4643-95CE-1442A8617E3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Matrix", "Matrix", "{5C9058E0-A4E6-42FC-B1F0-47FFF5A3B004}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaximizeMatrix", "Matrix\MaximizeMatrix\MaximizeMatrix.vcxproj", "{D9997EE1-062B-44F4-BBE2-4559059F5AF6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MagicSquareOdd", "Matrix\MagicSquareOdd\MagicSquareOdd.vcxproj", "{4B13C8C1-C9F0-4FE0-96DD-040CC5307815}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +29,38 @@ Global
 		{5CF9D57F-A8D6-47B5-B434-B2528DFC05B7}.Release|x64.Build.0 = Release|x64
 		{5CF9D57F-A8D6-47B5-B434-B2528DFC05B7}.Release|x86.ActiveCfg = Release|Win32
 		{5CF9D57F-A8D6-47B5-B434-B2528DFC05B7}.Release|x86.Build.0 = Release|Win32
+		{DE05AB7E-AD46-4643-95CE-1442A8617E3B}.Debug|x64.ActiveCfg = Debug|x64
+		{DE05AB7E-AD46-4643-95CE-1442A8617E3B}.Debug|x64.Build.0 = Debug|x64
+		{DE05AB7E-AD46-4643-95CE-1442A8617E3B}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE05AB7E-AD46-4643-95CE-1442A8617E3B}.Debug|x86.Build.0 = Debug|Win32
+		{DE05AB7E-AD46-4643-95CE-1442A8617E3B}.Release|x64.ActiveCfg = Release|x64
+		{DE05AB7E-AD46-4643-95CE-1442A8617E3B}.Release|x64.Build.0 = Release|x64
+		{DE05AB7E-AD46-4643-95CE-1442A8617E3B}.Release|x86.ActiveCfg = Release|Win32
+		{DE05AB7E-AD46-4643-95CE-1442A8617E3B}.Release|x86.Build.0 = Release|Win32
+		{D9997EE1-062B-44F4-BBE2-4559059F5AF6}.Debug|x64.ActiveCfg = Debug|x64
+		{D9997EE1-062B-44F4-BBE2-4559059F5AF6}.Debug|x64.Build.0 = Debug|x64
+		{D9997EE1-062B-44F4-BBE2-4559059F5AF6}.Debug|x86.ActiveCfg = Debug|Win32
+		{D9997EE1-062B-44F4-BBE2-4559059F5AF6}.Debug|x86.Build.0 = Debug|Win32
+		{D9997EE1-062B-44F4-BBE2-4559059F5AF6}.Release|x64.ActiveCfg = Release|x64
+		{D9997EE1-062B-44F4-BBE2-4559059F5AF6}.Release|x64.Build.0 = Release|x64
+		{D9997EE1-062B-44F4-BBE2-4559059F5AF6}.Release|x86.ActiveCfg = Release|Win32
+		{D9997EE1-062B-44F4-BBE2-4559059F5AF6}.Release|x86.Build.0 = Release|Win32
+		{4B13C8C1-C9F0-4FE0-96DD-040CC5307815}.Debug|x64.ActiveCfg = Debug|x64
+		{4B13C8C1-C9F0-4FE0-96DD-040CC5307815}.Debug|x64.Build.0 = Debug|x64
+		{4B13C8C1-C9F0-4FE0-96DD-040CC5307815}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B13C8C1-C9F0-4FE0-96DD-040CC5307815}.Debug|x86.Build.0 = Debug|Win32
+		{4B13C8C1-C9F0-4FE0-96DD-040CC5307815}.Release|x64.ActiveCfg = Release|x64
+		{4B13C8C1-C9F0-4FE0-96DD-040CC5307815}.Release|x64.Build.0 = Release|x64
+		{4B13C8C1-C9F0-4FE0-96DD-040CC5307815}.Release|x86.ActiveCfg = Release|Win32
+		{4B13C8C1-C9F0-4FE0-96DD-040CC5307815}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CF9D57F-A8D6-47B5-B434-B2528DFC05B7} = {5C9058E0-A4E6-42FC-B1F0-47FFF5A3B004}
+		{DE05AB7E-AD46-4643-95CE-1442A8617E3B} = {5C9058E0-A4E6-42FC-B1F0-47FFF5A3B004}
+		{D9997EE1-062B-44F4-BBE2-4559059F5AF6} = {5C9058E0-A4E6-42FC-B1F0-47FFF5A3B004}
+		{4B13C8C1-C9F0-4FE0-96DD-040CC5307815} = {5C9058E0-A4E6-42FC-B1F0-47FFF5A3B004}
 	EndGlobalSection
 EndGlobal
